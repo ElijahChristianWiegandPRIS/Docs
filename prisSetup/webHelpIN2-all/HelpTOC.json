@@ -1,0 +1,1 @@
+{"entities":{"pages":{"starter":{"id":"starter","title":"Starter","url":"starter.html","level":0,"pages":["PrisLocalSetup"],"tabIndex":0},"PrisLocalSetup":{"id":"PrisLocalSetup","title":"PrisLocalSetup","url":"prislocalsetup.html","level":1,"parentId":"starter","tabIndex":0}}},"topLevelIds":["starter"]}

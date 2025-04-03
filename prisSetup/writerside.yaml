@@ -1,0 +1,36 @@
+# Project name (used in metadata, title, etc.)
+project:
+  name: Writerside PrisSetup
+  version: 1.0
+
+# Input and output directories
+paths:
+  content: writerside         # Source directory for documentation markdown files
+  assets: writerside/images         # Directory for images, media, and other assets
+  output: output          # Directory where the static site will be built
+
+# Theme (default or custom themes if developed)
+theme:
+  name: default           # Built-in WriterSide theme
+  custom: false           # Leave as false unless using a custom theme
+
+# Navigation structure (defines table of contents and navigation hierarchy)
+navigation:
+  - name: Home
+    path: starter.md        # Reference to a file in your content directory
+  - name: Guides
+    children:
+      - name: Starter Page
+        path: topics/starter.md
+      - name: PRIS Local Setup
+        path: guide/PrisLocalSetup.md
+
+# Build settings
+build:
+  minify: true          # Minify the HTML, CSS, and JS output
+  clean: true           # Clean the output directory before building
+
+# Deployment options (optional)
+deploy:
+  provider: github      # Deployment provider (e.g., GitHub Pages, FTP, AWS)
+  repository: ElijahChristianWiegandPRIS/docsPRIS   # Your GitHub repo (if using GitHub Pages)
