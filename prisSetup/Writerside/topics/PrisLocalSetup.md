@@ -203,7 +203,7 @@ Install **MySQL Database Server 8.0 and Workbench tools**
 ****Procedure****
 1. In MySQL Workbench, double-click the new connection to connect to it.
 2. Enter the root password (by default, innovation!).
-3. In the query window, enter CREATE DATABASE pris-spi; and then click the execute icon.
+3. In the query window, enter CREATE DATABASE custPRIS; and then click the execute icon.
    Include the semicolon in the query.
 4. Enter ALTER DATABASE custPRIS CHARACTER SET latin1 COLLATE latin1_general_ci; and then click the
    execute icon.
@@ -416,7 +416,11 @@ InsuranceNow.
 ### About this task {id="about-this-task_1"}
 **Note:** For non-Gradle environments, see “Use SecurityInit to initialize the database” on page 35.
 When you initialize your database, the system drops all the tables that you select and recreates empty tables.
+
 **Note:** You only need to perform this step once.
+
+
+**Note:** If the project fails to load your first time around navigate to build-ext.gradle and comment out ln 38
 
 ***Procedure***
 

@@ -9,4 +9,5 @@
     <toc-element topic="starter.md">
         <toc-element topic="PrisLocalSetup.md"/>
     </toc-element>
+    <toc-element topic="PRISNewMachineSetUp.md"/>
 </instance-profile>
