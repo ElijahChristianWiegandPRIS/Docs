@@ -32,7 +32,7 @@ Claims were incorrectly added midterm via an endorsement, making the driver unac
 
 \- No reproduction steps were included in QA notes.
 
-\- Developer could not reproduce in environment but deduced logic issue from related tickets (GW-3627, GW-2712).
+\- Developer could not reproduce in their local environment but deduced a logic issue from related tickets (GW-3627, GW-2712).
 
 
 
@@ -58,7 +58,7 @@ Claims were incorrectly added midterm via an endorsement, making the driver unac
 
 \### 🖼️ Production Examples
 
-\- Two screenshots were provided, but no query logs or step-by-step walkthrough of when claim appeared.
+\- Two screenshots were provided, but no query logs or step-by-step walkthrough of when the claim(s) appeared.
 
 
 
@@ -94,7 +94,7 @@ AZ producers failed to export IVANS files due to a 401 error. This broke the \*\
 
 \- No QA or AC steps to recreate.
 
-\- Dev noted hunch that it may be token-related but couldn’t confirm without logs.
+\- Dev noted a hunch that it may be token-related, but couldn’t confirm without logs.
 
 
 
@@ -114,7 +114,7 @@ AZ producers failed to export IVANS files due to a 401 error. This broke the \*\
 
 \### 🖼️ Production Examples {id="production-examples\_2"}
 
-\- Logs provided late in cycle. Early PROD/UAT logs could have clarified if this was a coverage issue or bad actor.
+\- Logs provided late in the cycle. Early PROD/UAT logs could have clarified if this was a coverage issue or bad actor.
 
 
 
@@ -261,6 +261,7 @@ To improve turnaround time and reduce repeat bugs:
 
 
 ---
+
 
 
 
